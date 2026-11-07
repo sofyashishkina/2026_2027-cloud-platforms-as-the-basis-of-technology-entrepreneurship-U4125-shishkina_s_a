@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-07T00:00:00.000Z" agent="draw.io" version="29.0.3" type="device" compressed="false">
+  <diagram id="local" name="01 - Начальный прототип">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="YouArt / 01  Начальный прототип" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=29;fontColor=#172D49;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="25" width="1400" height="45" />
+        </mxCell>
+        <mxCell id="subtitle" value="Проверка сценариев на ПК разработчика · облачные ресурсы не требуются" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=18;fontColor=#4A5C70;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="82" width="1400" height="35" />
+        </mxCell>
+        <mxCell id="host" value="ПК разработчика / локальные процессы и Docker" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=#F7F9FC;strokeColor=#B8C6D7;align=left;verticalAlign=top;fontSize=19;fontStyle=1;spacingLeft=20;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="240" y="165" width="1145" height="645" />
+        </mxCell>
+        <mxCell id="browser" value="Проверка сайта&#10;Браузер" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="315" width="165" height="100" />
+        </mxCell>
+        <mxCell id="frontend" value="React + Vite&#10;Локальный frontend" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="290" y="315" width="210" height="100" />
+        </mxCell>
+        <mxCell id="app" value="Go + chi&#10;Каталог и AI-конструктор&#10;Проверка результата" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="590" y="315" width="245" height="115" />
+        </mxCell>
+        <mxCell id="pg" value="PostgreSQL&#10;Каталог, заявки, диалоги" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="250" width="260" height="95" />
+        </mxCell>
+        <mxCell id="llm" value="stubllm&#10;Предсказуемые ответы" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F1EBFB;strokeColor=#9574B9;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="420" width="260" height="95" />
+        </mxCell>
+        <mxCell id="mail" value="stubmail / stubpdf&#10;Почта и PDF без API" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF4DF;strokeColor=#B99B59;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="590" width="260" height="95" />
+        </mxCell>
+        <mxCell id="files" value="Локальная папка файлов&#10;Тестовые данные" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="590" y="590" width="245" height="95" />
+        </mxCell>
+        <mxCell id="hint" value="Проверяем каталог и конструктор на тестовых данных.&#10;Модель, почту и облачное хранилище подключим на следующем этапе." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=17;fontColor=#4A5C70;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="290" y="720" width="1020" height="60" />
+        </mxCell>
+        <mxCell id="browser-front" value="localhost" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="browser" target="frontend">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="front-app" value="API / SSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="frontend" target="app">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-pg" value="SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.2;entryX=0;entryY=0.5;" edge="1" parent="1" source="app" target="pg">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="890" y="338" />
+              <mxPoint x="890" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-llm" value="Вызов модели" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" edge="1" parent="1" source="app" target="llm">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="900" y="390" />
+              <mxPoint x="900" y="468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-mail" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.9;entryX=0;entryY=0.5;" edge="1" parent="1" source="app" target="mail">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="875" y="419" />
+              <mxPoint x="875" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-files" value="Файлы" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="files">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="cost" value="Облако и внешние API: 0 ₽/мес.   |   Уже имеющийся ПК и труд разработчика в смету не включены" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="870" width="1350" height="60" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="partners" name="Тестирование партнёрами">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="YouArt / 02  Тестирование партнёрами" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=29;fontColor=#172D49;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="25" width="1420" height="45" />
+        </mxCell>
+        <mxCell id="subtitle" value="Одно развёртывание · модульный монолит · модель вызывается через внешний API" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=18;fontColor=#4A5C70;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="82" width="1420" height="35" />
+        </mxCell>
+        <mxCell id="cloud" value="Yandex Cloud / ru-central1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=#F4F8FD;strokeColor=#A5BEDA;align=left;verticalAlign=top;fontSize=19;fontStyle=1;spacingLeft=20;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="240" y="155" width="880" height="690" />
+        </mxCell>
+        <mxCell id="vm" value="1 ВМ / Docker Compose · 2 vCPU (50 %) · 4 ГБ RAM · SSD 30 ГБ" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#91A5BB;align=left;verticalAlign=top;fontSize=19;fontStyle=1;spacingLeft=20;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="265" y="215" width="830" height="395" />
+        </mxCell>
+        <mxCell id="browser" value="Пользователи&#10;Браузер · домен / DNS" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="285" width="165" height="100" />
+        </mxCell>
+        <mxCell id="caddy" value="Caddy + SPA&#10;HTTPS / reverse proxy&#10;Фото каталога на диске" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="285" width="200" height="100" />
+        </mxCell>
+        <mxCell id="app" value="Go + chi&#10;Каталог / AI-конструктор&#10;Авторизация и проверка КП" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="285" width="240" height="100" />
+        </mxCell>
+        <mxCell id="pg" value="PostgreSQL&#10;Каталог, заявки, диалоги" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="465" width="240" height="90" />
+        </mxCell>
+        <mxCell id="pdf" value="Gotenberg&#10;HTML → PDF&#10;1 задача одновременно" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="850" y="465" width="210" height="90" />
+        </mxCell>
+        <mxCell id="metrics" value="Prometheus / Grafana&#10;Метрики + JSON-логи&#10;Доступ через SSH" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="465" width="200" height="90" />
+        </mxCell>
+        <mxCell id="files" value="youart-files&#10;Закрытые PDF&#10;Выдача через приложение" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="710" width="220" height="100" />
+        </mxCell>
+        <mxCell id="backups" value="youart-backups&#10;Копии БД + фотографий&#10;Версии · 30 дней" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="710" width="240" height="100" />
+        </mxCell>
+        <mxCell id="kms" value="KMS&#10;3 ключа&#10;Диск + оба бакета" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF4DF;strokeColor=#B99B59;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="850" y="710" width="210" height="100" />
+        </mxCell>
+        <mxCell id="llm" value="Cloud.ru / GigaChat 3 Pro&#10;Внешний API модели&#10;Оплата по токенам" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F1EBFB;strokeColor=#9574B9;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1170" y="285" width="270" height="100" />
+        </mxCell>
+        <mxCell id="mail" value="Yandex Cloud Postbox&#10;Коды входа и уведомления" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF4DF;strokeColor=#B99B59;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1170" y="465" width="270" height="90" />
+        </mxCell>
+        <mxCell id="admin" value="Администратор&#10;SSH по ключу" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="465" width="165" height="90" />
+        </mxCell>
+        <mxCell id="assumptions" value="Расчётные допущения&#10;До 30 пользователей/мес.&#10;300 вызовов модели/мес.&#10;Object Storage: 2 ГБ&#10;&#10;Приглашённые участники&#10;Только тестовые данные" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1170" y="645" width="270" height="200" />
+        </mxCell>
+        <mxCell id="cloud-note" value="БД, PDF и мониторинг без публичных портов. Бакеты закрыты; ключ модели находится на сервере." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=16;fontColor=#4A5C70;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="275" y="865" width="1150" height="40" />
+        </mxCell>
+        <mxCell id="cost" value="Расходы: 2 834,24 ₽/мес.   |   720 часов · рубли с НДС · одна ВМ остаётся единой точкой отказа" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="925" width="1405" height="60" />
+        </mxCell>
+        <mxCell id="browser-caddy" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="browser" target="caddy">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="caddy-app" value="API / SSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="caddy" target="app">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-llm" value="HTTPS · streaming" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" edge="1" parent="1" source="app" target="llm">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-mail" value="Отправка писем" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.72;entryX=0;entryY=0.5;" edge="1" parent="1" source="app" target="mail">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1135" y="357" />
+              <mxPoint x="1135" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-pg" value="SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="pg">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-pdf" value="HTML → PDF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.85;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="pdf">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="774" y="420" />
+              <mxPoint x="955" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-files" value="S3 API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="files">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="618" y="412" />
+              <mxPoint x="535" y="412" />
+              <mxPoint x="535" y="650" />
+              <mxPoint x="405" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-backup" value="Ночная копия БД и файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;dashPattern=5 4;strokeColor=#A08A63;" edge="1" parent="1" source="pg" target="backups">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="admin-vm" value="SSH" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.747;dashed=1;dashPattern=5 4;strokeColor=#A08A63;" edge="1" parent="1" source="admin" target="vm">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="production" name="Рабочее решение">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="YouArt / 03  Рабочее решение" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=29;fontColor=#172D49;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="25" width="1420" height="45" />
+        </mxCell>
+        <mxCell id="subtitle" value="Одно развёртывание · модульный монолит · модель вызывается через внешний API" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=18;fontColor=#4A5C70;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="82" width="1420" height="35" />
+        </mxCell>
+        <mxCell id="cloud" value="Yandex Cloud / ru-central1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=#F4F8FD;strokeColor=#A5BEDA;align=left;verticalAlign=top;fontSize=19;fontStyle=1;spacingLeft=20;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="240" y="155" width="880" height="690" />
+        </mxCell>
+        <mxCell id="vm" value="1 ВМ / Docker Compose · 2 vCPU (100 %) · 4 ГБ RAM · SSD 30 ГБ" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#91A5BB;align=left;verticalAlign=top;fontSize=19;fontStyle=1;spacingLeft=20;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="265" y="215" width="830" height="395" />
+        </mxCell>
+        <mxCell id="browser" value="Пользователи&#10;Браузер · домен / DNS" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="285" width="165" height="100" />
+        </mxCell>
+        <mxCell id="caddy" value="Caddy + SPA&#10;HTTPS / reverse proxy&#10;Фото каталога на диске" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="285" width="200" height="100" />
+        </mxCell>
+        <mxCell id="app" value="Go + chi&#10;Каталог / AI-конструктор&#10;Авторизация и проверка КП" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="285" width="240" height="100" />
+        </mxCell>
+        <mxCell id="pg" value="PostgreSQL&#10;Каталог, заявки, диалоги" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="465" width="240" height="90" />
+        </mxCell>
+        <mxCell id="pdf" value="Gotenberg&#10;HTML → PDF&#10;1 задача одновременно" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF2FC;strokeColor=#5586BA;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="850" y="465" width="210" height="90" />
+        </mxCell>
+        <mxCell id="metrics" value="Prometheus / Grafana&#10;Метрики + JSON-логи&#10;Доступ через SSH" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="465" width="200" height="90" />
+        </mxCell>
+        <mxCell id="files" value="youart-files&#10;Закрытые PDF&#10;Выдача через приложение" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="710" width="220" height="100" />
+        </mxCell>
+        <mxCell id="backups" value="youart-backups&#10;Копии БД + фотографий&#10;Версии · 30 дней" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EAF5EF;strokeColor=#639779;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="710" width="240" height="100" />
+        </mxCell>
+        <mxCell id="kms" value="KMS&#10;3 ключа&#10;Диск + оба бакета" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF4DF;strokeColor=#B99B59;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="850" y="710" width="210" height="100" />
+        </mxCell>
+        <mxCell id="llm" value="Cloud.ru / GigaChat 3 Pro&#10;Внешний API модели&#10;Оплата по токенам" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F1EBFB;strokeColor=#9574B9;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1170" y="285" width="270" height="100" />
+        </mxCell>
+        <mxCell id="mail" value="Yandex Cloud Postbox&#10;Коды входа и уведомления" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF4DF;strokeColor=#B99B59;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1170" y="465" width="270" height="90" />
+        </mxCell>
+        <mxCell id="admin" value="Администратор&#10;SSH по ключу" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="465" width="165" height="90" />
+        </mxCell>
+        <mxCell id="assumptions" value="Расчётные допущения&#10;Около 200 пользователей/мес.&#10;1 000 вызовов модели/мес.&#10;Object Storage: 5 ГБ&#10;&#10;Копии каждую ночь&#10;Хранение 30 дней" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1170" y="645" width="270" height="200" />
+        </mxCell>
+        <mxCell id="cloud-note" value="БД, PDF и мониторинг без публичных портов. Бакеты закрыты; ключ модели находится на сервере." style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;align=left;fontSize=16;fontColor=#4A5C70;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="275" y="865" width="1150" height="40" />
+        </mxCell>
+        <mxCell id="cost" value="Расходы: 3 864,31 ₽/мес.   |   720 часов · рубли с НДС · одна ВМ остаётся единой точкой отказа" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F4F7;strokeColor=#929EAD;strokeWidth=1.5;fontColor=#1D2B3D;fontFamily=Arial;fontSize=17;spacing=12;align=center;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="925" width="1405" height="60" />
+        </mxCell>
+        <mxCell id="browser-caddy" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="browser" target="caddy">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="caddy-app" value="API / SSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="caddy" target="app">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-llm" value="HTTPS · streaming" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" edge="1" parent="1" source="app" target="llm">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-mail" value="Отправка писем" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.72;entryX=0;entryY=0.5;" edge="1" parent="1" source="app" target="mail">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1135" y="357" />
+              <mxPoint x="1135" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-pg" value="SQL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="pg">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="app-pdf" value="HTML → PDF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.85;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="pdf">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="774" y="420" />
+              <mxPoint x="955" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-files" value="S3 API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="app" target="files">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="618" y="412" />
+              <mxPoint x="535" y="412" />
+              <mxPoint x="535" y="650" />
+              <mxPoint x="405" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg-backup" value="Ночная копия БД и файлов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;dashPattern=5 4;strokeColor=#A08A63;" edge="1" parent="1" source="pg" target="backups">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="admin-vm" value="SSH" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#657B94;strokeWidth=1.8;fontFamily=Arial;fontSize=14;fontColor=#40566D;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.747;dashed=1;dashPattern=5 4;strokeColor=#A08A63;" edge="1" parent="1" source="admin" target="vm">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
